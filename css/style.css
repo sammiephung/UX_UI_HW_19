@@ -63,7 +63,7 @@ h5 {
     font-weight: normal;
     font-size: 24px;
     line-height: 170%;
-    color: #828282; 
+    color: #828282;
 }
 
 p {
@@ -296,7 +296,9 @@ a {
     margin-bottom: 20px;
 }
 
-.mySkills p, .mySkills h2, .mySkills h3 {
+.mySkills p,
+.mySkills h2,
+.mySkills h3 {
     color: white;
 }
 
@@ -305,7 +307,8 @@ a {
     margin-bottom: 50px;
 }
 
-.mySkills p, .mySkills h3 {
+.mySkills p,
+.mySkills h3 {
     margin-right: 15%;
     margin-bottom: 15px;
 }
