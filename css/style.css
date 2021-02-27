@@ -217,8 +217,6 @@ a {
     top: 5%;
 }
 
-.profileFull img {}
-
 .profileSquare {
     display: none;
 }
@@ -313,9 +311,83 @@ a {
     margin-bottom: 15px;
 }
 
-.tools {
+.toolsSection {
     background-image: linear-gradient(180deg, white, #F1F0F0);
     padding: 50px 15%;
+}
+
+.toolsSection h2 {
+    text-align: center;
+    margin: 10px;
+    color: #1B1B1E;
+}
+
+.allTools {
+    display: flex;
+    margin-top: 50px;
+}
+
+.columnOne {
+    width: 50%;
+    margin-right: 35px;
+}
+
+.columnTwo {
+    width: 50%;
+    margin-left: 35px;
+}
+
+.toolsBar {
+    position: relative;
+    width: auto;
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+
+.blueBar {
+    position: relative;
+    height: 10px;
+    background-color: #2A7DE1;
+    z-index: 1;
+}
+
+.greyBar {
+    position: relative;
+    height: 7px;
+    bottom: 7px;
+    background-color: #E0E0E0;
+}
+
+.figmaBar {
+    width: 85%;
+}
+
+.xdBar {
+    width: 70%;
+}
+
+.aiBar {
+    width: 90%
+}
+
+.psBar {
+    width: 95%;
+}
+
+.htmlBar {
+    width: 70%;
+}
+
+.aeBar {
+    width: 85%;
+}
+
+.miroBar {
+    width: 80%;
+}
+
+.trelloBar {
+    width: 75%;
 }
 
 /* -------------------------------------------- Contact section --------------------------------------------- */
@@ -329,6 +401,14 @@ a {
 
 .contactMe h2 {
     color: #1B1B1E;
+}
+
+.contactMe a:hover {
+    color: #2A7DE1;
+}
+
+.contactMe a:active {
+    color: #2A4893;
 }
 
 
@@ -526,5 +606,31 @@ footer {
         font-size: 32px;
         line-height: 48px;
     }
+
+
+
+    .toolsSection {
+        padding: 50px 7%;
+    }
+
+.toolsSection h2 {
+    text-align: left;
+    margin-left: 0px;
+}
+
+    .allTools {
+        flex-direction: column;
+    }
+    
+    .columnOne {
+        width: 100%;
+        margin-right: 0px
+    }
+    
+    .columnTwo {
+        width: 100%;
+        margin-left: 0px;
+    }
+
 
 }
