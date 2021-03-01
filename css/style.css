@@ -180,12 +180,58 @@ a {
     border-radius: 25px;
 }
 
+
+.topMobileNav {
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    margin: 0px 7%;
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    right: 0;
+    top: 0;
+    background-color: #2A7DE1;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 5%;
+    width: 100%;
+    text-align: left;
+    padding: 0px 7%;
+}
+
+.overlay h1 {
+    color: white;
+    margin-bottom: 10%;
+}
+
+.closebtn {
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0px 7%;
+    font-size: 80px;
+}
+
 /* --------------------------------------------- Hero section --------------------------------------------- */
 
 .heroSection {
-    height: 75vh;
+    height: 80vh;
     background-image: linear-gradient(180deg, white, #F1F0F0);
     padding: 0px 15%;
+}
+
+.heroAbout {
+    height: 75vh;
 }
 
 .headline {
@@ -208,7 +254,7 @@ a {
     max-width: 400px;
     min-width: 250px;
     padding: 0px;
-    filter: drop-shadow(0px 20px 20px rgba(42,72,147,0.15));
+    filter: drop-shadow(0px 20px 20px rgba(42, 72, 147, 0.15));
 }
 
 .headlineAbout {
@@ -597,6 +643,9 @@ footer {
         width: 55px;
     }
 
+
+
+
     .heroAbout {
         padding: 0px 7%;
         padding-bottom: 13%;
@@ -609,26 +658,24 @@ footer {
         line-height: 48px;
     }
 
-
-
     .toolsSection {
         padding: 50px 7%;
     }
 
-.toolsSection h2 {
-    text-align: left;
-    margin-left: 0px;
-}
+    .toolsSection h2 {
+        text-align: left;
+        margin-left: 0px;
+    }
 
     .allTools {
         flex-direction: column;
     }
-    
+
     .columnOne {
         width: 100%;
         margin-right: 0px
     }
-    
+
     .columnTwo {
         width: 100%;
         margin-left: 0px;

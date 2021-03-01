@@ -16,19 +16,47 @@
 <body>
     <header id="navBar">
         <div class="navLogo">
-            <a href="index.html"><img src="images/blueLogo.png"></a>
+            <a href="index.html"><img src="images/blueLogo.svg"></a>
         </div>
         <div class="menuItems">
             <a href="index.html" class="highlight">Work</a>
             <a href="about.html">About Me</a>
             <a href="https://drive.google.com/file/d/1fmXLjQiboOGOz95VLChyZ1LVLEGIUq6-/view?usp=sharing">CV</a>
         </div>
-        <div class="hamburgerMenu">
-            <div></div>
-            <div></div>
-            <div></div>
+
+        <div id="myNav" class="overlay">
+            <div class="topMobileNav">
+                <div class="navLogo">
+                    <a href="index.html"><img src="images/greyLogo.svg"></a>
+                </div>
+                <div><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a></div>
+            </div>
+
+            <div class="overlay-content">
+                <a href="index.html"><h1>work</h1></a>
+                <a href="about.html"><h1>about me</h1></a>
+                <a href="https://drive.google.com/file/d/1fmXLjQiboOGOz95VLChyZ1LVLEGIUq6-/view?usp=sharing"><h1>cv</h1></a>
+                <div class="socialBlock socialNav">
+                    <a href="https://github.com/sammiephung"><img src="images/social/githubIcon.png"></a>
+                    <a href="https://www.instagram.com/sphung.exe"><img src="images/social/instaIcon.png"></a>
+                    <a href="https://www.linkedin.com/in/sammiephung/"><img src="images/social/linkedinIcon.png"></a>
+                    <a href="mailto: sammiephung@gmail.com?subject=Love your stuff, let's connect!"><img
+                            src="images/social/emailIcon.png"></a>
+                </div>
+            </div>
         </div>
+
+            <span onclick="openNav()">
+                <div class="hamburgerMenu">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </span>
+
     </header>
+
+
 
     <section class="heroSection">
         <div class="headline">
@@ -66,7 +94,7 @@
 
     <footer>
         <div class="footerLogo">
-            <a href="index.html"><img src="images/greyLogo.png"></a>
+            <a href="index.html"><img src="images/greyLogo.svg"></a>
         </div>
         <div class="footerItems">
             <a href="index.html">Work</a>
@@ -77,10 +105,12 @@
             <a href="https://github.com/sammiephung"><img src="images/social/githubIcon.png"></a>
             <a href="https://www.instagram.com/sphung.exe"><img src="images/social/instaIcon.png"></a>
             <a href="https://www.linkedin.com/in/sammiephung/"><img src="images/social/linkedinIcon.png"></a>
-            <a href="mailto: sammiephung@gmail.com?subject=Love your stuff, let's connect!"><img src="images/social/emailIcon.png"></a>
+            <a href="mailto: sammiephung@gmail.com?subject=Love your stuff, let's connect!"><img
+                    src="images/social/emailIcon.png"></a>
         </div>
     </footer>
-
 </body>
+
+<script src="js/index.js"></script>
 
 </html>
