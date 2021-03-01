@@ -184,8 +184,10 @@ a {
 .topMobileNav {
     height: 20vh;
     display: flex;
+    justify-content: space-between;
     flex-direction: row;
     margin: 0px 7%;
+    align-items: center;
 }
 
 .overlay {
@@ -215,10 +217,6 @@ a {
 
 .closebtn {
     color: white;
-    position: absolute;
-    top: 0;
-    right: 0;
-    padding: 0px 7%;
     font-size: 80px;
 }
 
